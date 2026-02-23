@@ -1,0 +1,7 @@
+2026-02-22 20:54:31,ping,loaded,N/A,Failed
+2026-02-22 20:55:06,nslookup,github.com,Not found,Failed
+2026-02-22 20:55:12,ipconfig,all,00-FF-8A-7B-D5-39 / 10.0.0.24,Captured
+2026-02-22 20:55:18,arp,local,10 devices,Captured
+2026-02-22 20:56:20,nslookup,google.com,Not found,Failed
+2026-02-22 20:57:00,ipconfig,all,00-FF-8A-7B-D5-39 / 10.0.0.24,Captured
+2026-02-22 20:57:06,arp,local,10 devices,Captured
