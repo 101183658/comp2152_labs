@@ -1,6 +1,6 @@
 # ============================================================
 #  WEEK 11 LAB — Q3: VULNERABILITY REPORT
-#  COMP2152 — [Your Name Here]
+#  COMP2152 — salman alamin
 # ============================================================
 #
 #  For the term project, each team member finds a vulnerability

@@ -1,6 +1,6 @@
 # ============================================================
 #  WEEK 11 LAB — Q2: PASSWORD STRENGTH CHECKER
-#  COMP2152 — [Your Name Here]
+#  COMP2152 — [salman alamin]
 # ============================================================
 #
 #  For the term project, you'll be looking for weak passwords
