@@ -1,6 +1,6 @@
 # ============================================================
 #  WEEK 11 LAB — Q1: PORT SCANNER CLASS
-#  COMP2152 — [salman alamin]
+#  COMP2152 — [Your Name Here]
 # ============================================================
 #
 #  You already know how to scan ports from Assignment 2.
