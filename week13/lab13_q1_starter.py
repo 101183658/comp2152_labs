@@ -37,22 +37,29 @@ def create_sample_data():
 #   Open the file, use csv.DictReader to read it
 #   Return a list of dictionaries (one per row)
 def load_findings(filename):
-    pass
-
+    with open(filename, "r") as f:
+        reader = csv.DictReader(f)
+        return list(reader)
 
 # TODO: Complete count_by_field(findings, field)
 #   Loop through findings
 #   Count how many times each unique value of findings[field] appears
 #   Return a dictionary, e.g. {"HIGH": 4, "MEDIUM": 3, "LOW": 5}
 def count_by_field(findings, field):
-    pass
+    counts = {}
+
+    for f in findings:
+        value = f[field]
+        counts[value] = counts.get(value, 0) + 1
+
+    return counts
 
 
 # TODO: Complete filter_findings(findings, field, value)
 #   Use a list comprehension to return only findings
 #   where finding[field] == value
 def filter_findings(findings, field, value):
-    pass
+    return [f for f in findings if f[field] == value]
 
 
 # TODO: Complete top_subdomains(findings, n)
@@ -61,7 +68,17 @@ def filter_findings(findings, field, value):
 #   Return the top n as a list of (subdomain, count) tuples
 #   Hint: sorted(counts.items(), key=lambda x: x[1], reverse=True)[:n]
 def top_subdomains(findings, n):
-    pass
+    counts = {}
+
+    for f in findings:
+        sub = f["subdomain"]
+        counts[sub] = counts.get(sub, 0) + 1
+
+    
+    sorted_counts = sorted(counts.items(), key=lambda x: x[1], reverse=True)
+
+    
+    return sorted_counts[:n]
 
 
 # --- Main (provided) ---
