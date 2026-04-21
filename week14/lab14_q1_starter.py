@@ -1,6 +1,6 @@
 # ============================================================
 #  WEEK 14 LAB — Q1: API EXPLORER
-#  COMP2152 — [Your Name Here]
+#  COMP2152 — [salman alamin]
 # ============================================================
 
 import urllib.request
